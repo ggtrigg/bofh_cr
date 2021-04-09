@@ -1,0 +1,17 @@
+name: bofh_cr
+version: 0.1.0
+
+authors:
+  - Glenn Trigg <ggtrigg@gmail.com>
+
+targets:
+  bofh_cr:
+    main: src/bofh_cr.cr
+
+crystal: 1.0.0
+
+license: MIT
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
